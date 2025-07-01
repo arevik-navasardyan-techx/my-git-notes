@@ -1,4 +1,9 @@
-###GIT
+###GIT###
+- Git is a system that helps track changes in your code,
+ collaborate with others, and manage the history of a project. 
+- A repository (or repo) is a storage space where your project,
+ along with all of its history (commits), configuration, and branches, is stored.
+-###GIT
 - Git is a system that helps track changes in your code,
  collaborate with others, and manage the history of a project. 
 - A repository (or repo) is a storage space where your project,
@@ -33,4 +38,6 @@ git commit -m "Add feature xyz"
 git checkout main      # Switch to the main branch first
 git merge <branch-name>
 
-- Make branches small, to avoid even big conflicts afterwards.
+- Make branches for small features/bug-fixing codes, to avoid even big conflicts
+  afterwards.
+
