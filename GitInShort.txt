@@ -1,0 +1,36 @@
+###GIT
+- Git is a system that helps track changes in your code,
+ collaborate with others, and manage the history of a project. 
+- A repository (or repo) is a storage space where your project,
+ along with all of its history (commits), configuration, and branches, is stored.
+
+
+ ## Commands
+ //create local repo
+ git init
+ //clone existing repo
+ git clone repoLink
+ //link Local Repository to Remote Repository
+ git remote add origin https://github.com/username/repository-name.git
+
+
+- A branch is a separate line of development. The main (or master) branch is the
+ default branch in a repository, but you can create as many additional branches as needed
+ and modify them without affecting main branch  
+
+
+ ##  Commands
+ //Create a New Branch
+git branch <branch-name>
+ //Switch Between Branches
+git checkout <branch-name>
+ //Create a New Branch and switch on it
+git checkout -b <branch-name>
+ //Make Changes in the Feature Branch
+git add .
+git commit -m "Add feature xyz"
+ //Merge a Branch
+git checkout main      # Switch to the main branch first
+git merge <branch-name>
+
+- Make branches small, to avoid even big conflicts afterwards.
