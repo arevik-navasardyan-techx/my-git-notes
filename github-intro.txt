@@ -1,0 +1,18 @@
+###GitHub###
+- GitHub is a web-based platform for version control and collaboration.
+- It hosts Git repositories, enabling multiple people to work on code together.
+  It hase both public and private repos.
+- Basic GitHub Actions
+    Create a repository: Create a new project on GitHub.
+    Push: Send local changes (commits) to the GitHub repository.
+    Pull: Get the latest changes from a GitHub repository to your local machine.
+    Clone: Copy a repository to your local machine to work on it offline.
+    Create a branch: Create a new line of development for features or fixes.
+- Common GitHub Commands and Workflow
+	Clone a repository: git clone https://github.com/username/repository-name.git
+	Create a new branch: git checkout -b branch-name
+	Stage changes: Prepare files to be committed: git add .
+	Commit changes: git commit -m "Your commit message"
+	Push changes: git push origin branch-name
+	Create a pull request: Propose changes to be merged into the main codebase.
+	Merge branches: Combine the changes from one branch into another.
