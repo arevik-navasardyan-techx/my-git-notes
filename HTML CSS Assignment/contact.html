@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+</head>
+<body>
+    <h1>Contact Info</h1>
+
+    <p>Please, provide information required bellow</p>
+
+    <form>
+        <label for="fullname">Full name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="120"><br>
+        <label for="message">Additional message:</label><br>
+        <input type="text" id="message" name="message" required><br>
+
+        <label for="topic">Choose a topic:</label></br>
+        <select name="topic" id="topic">
+            <option value="general">General</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+        </select>
+
+        
+        <label for="tel">Enter your phone number:</label>
+        <input type="tel" id="tel" name="phone-number" pattern="+374-[1-9]{2}-[0-9]{6}">
+    
+
+        <p>Preferred contact method: </p>
+        
+            <input type="radio" id="phone" name="method" value="Phone">
+            <label for="phone">Phone</label>
+            <input type="radio" id="email" name="method" value="Email">
+            <label for="email">Email</label><br>
+            
+
+        </br>
+        <input type="submit" value = "Submit">
+    </form>
+</body>
+</html>
